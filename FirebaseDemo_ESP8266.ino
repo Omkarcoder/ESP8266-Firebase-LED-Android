@@ -3,10 +3,10 @@
 #include <FirebaseESP8266.h>
 #include <ESP8266WiFi.h>
 
-#define FIREBASE_HOST "iot-trial-3a43d.firebaseio.com"
-#define FIREBASE_AUTH "iczp9LuT7xz0I1wGi7KjpS87ilNXROqYFvyZbcRa"
-#define WIFI_SSID "kim"
-#define WIFI_PASSWORD "kimsang23"
+#define FIREBASE_HOST "your-firebase-host-url (can find in realtime-database)"
+#define FIREBASE_AUTH "Project Settings-Database Secrets-Show-Copy and paste here"
+#define WIFI_SSID "your-wifi-ssid"
+#define WIFI_PASSWORD "your-wifi-password"
 
 FirebaseData firebaseData;
 
